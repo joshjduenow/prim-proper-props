@@ -1,8 +1,8 @@
-import { useState } from 'react';
 
 
 
-function GuestList(guestList) {
+// DON'T FORGET THE CURLY BRACES IN THE FUNCTION CALL!!
+function GuestList({guestList}) {
     console.log(guestList);
   return (
     <>
